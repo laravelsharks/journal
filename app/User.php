@@ -26,6 +26,7 @@ class User extends Authenticatable
     protected $hidden = [
         'password', 'remember_token',
     ];
+<<<<<<< HEAD
 
     /*public function posts(){
         return $this->hasMany('App\Post');
@@ -53,4 +54,7 @@ class User extends Authenticatable
     public function hasRole($role){
         return $this->roles()->where('name', $role)->first() ? true : false;
     }
+=======
+        public $timestamps = false;
+>>>>>>> christian
 }
