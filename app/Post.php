@@ -67,5 +67,5 @@ class Post extends Model
         $session->put('posts', $posts);
     }
 
-    public $timestamps = false;
+    
 }
