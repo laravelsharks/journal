@@ -9,5 +9,6 @@ $factory->define(App\User::class, function (Faker $faker) {
         'email' => $faker->email,
         'password' => bcrypt(str_random(10)),
         'remember_token' => str_random(10),
+        'created_at' => $faker->dateTimeThisDecade($max = 'now', $timezone = null),
     ];
 });
