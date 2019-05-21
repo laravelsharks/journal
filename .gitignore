@@ -5,3 +5,5 @@ Homestead.yaml
 Homestead.jsongit init
 .env
 /.idea
+*.sqlite
+.history
