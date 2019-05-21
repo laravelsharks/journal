@@ -21,7 +21,7 @@ class CreatePostsTable extends Migration
             $table->string('image');
             $table->string('rank');
             $table->string('category');
-            $table->date('created_at');
+            $table->date('created');
             $table->date('updated_at');
             
         });

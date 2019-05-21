@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "4949a77fa7efc3da9f9abf5179a3fe1d",
+    "content-hash": "0417f1326ea2144b0ed1b792638fb7da",
     "packages": [
         {
             "name": "classpreloader/classpreloader",
@@ -354,6 +354,43 @@
                 "tokenizer"
             ],
             "time": "2015-12-05T17:17:57+00:00"
+        },
+        {
+            "name": "jzonta/faker-restaurant",
+            "version": "1.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/jzonta/FakerRestaurant.git",
+                "reference": "05bed7ad1de5021e06da91dbb02c5f52b4012c84"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/jzonta/FakerRestaurant/zipball/05bed7ad1de5021e06da91dbb02c5f52b4012c84",
+                "reference": "05bed7ad1de5021e06da91dbb02c5f52b4012c84",
+                "shasum": ""
+            },
+            "require": {
+                "fzaninotto/faker": "~1.4",
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "FakerRestaurant\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "João Zonta"
+                }
+            ],
+            "description": "Food and Beverage names generate using fzaninotto/Faker",
+            "homepage": "https://github.com/jzonta/FakerRestaurant",
+            "time": "2019-02-13T10:58:50+00:00"
         },
         {
             "name": "laravel/framework",

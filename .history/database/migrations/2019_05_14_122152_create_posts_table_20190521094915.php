@@ -19,13 +19,20 @@ class CreatePostsTable extends Migration
             $table->text('content');
             $table->string('author');
             $table->string('image');
-            $table->string('rank');
+            $table->number('rank');
             $table->string('category');
-            $table->date('created_at');
-            $table->date('updated_at');
+            $table->timestamps('created');
             
         });
     }
+
+    'title' => $faker->title,
+    'content' => $faker->realText($maxNbChars = 200),
+    'author' => $faker->email,
+    'image' => $faker->imageUrl($width = 640, $height = 480, 'food'),
+    'rank' => str_random(3),
+    'category' => $faker->foodName(),
+    'created' => timestamps(),
 
     /**
      * Reverse the migrations.
