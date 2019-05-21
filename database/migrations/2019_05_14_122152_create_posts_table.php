@@ -17,7 +17,6 @@ class CreatePostsTable extends Migration
             $table->increments('id');
             $table->string('title');
             $table->text('content');
-            $table->string('author');
             $table->string('image');
             $table->string('rank');
             $table->string('category');
